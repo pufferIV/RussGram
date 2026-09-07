@@ -1,289 +1,141 @@
 # 🇷🇺 RusseGram
 
-> A modern Android app for learning Russian through grammar, vocabulary, reading, listening, writing, and AI-powered practice.
+> Une application Android moderne pour apprendre le russe : grammaire, vocabulaire, lecture, écoute, écriture et pratique assistée par IA.
 
-RusseGram is a personal learning project designed to make Russian easier to study through interactive exercises and a clean, mobile-friendly interface.
+RusseGram est un projet personnel conçu pour rendre l'apprentissage du russe plus simple grâce à des exercices interactifs et une interface mobile soignée.
 
 ---
 
-## 📑 Table of Contents
+## 📑 Sommaire
 
-- [Features](#-features)
+- [Fonctionnalités](#-fonctionnalités)
 - [Interface](#-interface)
-- [Tech Stack](#-tech-stack)
-- [Internet Connection](#-internet-connection)
-- [Disclaimer](#️-disclaimer)
-- [Screenshots](#-screenshots)
+- [Stack technique](#️-stack-technique)
+- [Connexion Internet](#-connexion-internet)
+- [Avertissement](#️-avertissement)
+- [Captures d'écran](#-captures-décran)
 - [Installation](#-installation)
 - [Roadmap](#️-roadmap)
-- [English Version](#-english-version)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Version anglaise](#-version-anglaise)
+- [Contribuer](#-contribuer)
+- [Licence](#-licence)
 
 ---
 
-## ✨ Features
+## ✨ Fonctionnalités
 
-### 📚 Grammar & Lessons
-
-Learn the fundamentals of Russian grammar through structured lessons covering:
-
-- Russian cases
-- Noun declensions
-- Gender and number
-- Pronouns and adjectives
-- Verb conjugation
-- Prepositions
-- Common exceptions and grammar traps
-- Examples in Russian with French explanations
-
-### 🃏 Flashcards
-
-Review vocabulary and grammar with interactive flashcards.
-
-- Tap a card to reveal the answer
-- Mark words as known or needing review
-- Generate a new deck
-- Track cards that need revision
-
-### 🧠 Grammar Quiz
-
-Test your knowledge with multiple-choice questions.
-
-The quiz focuses on practical grammar usage, including choosing the correct case or form of a word in a sentence.
-
-### ✍️ Writing Exercises
-
-Practice producing Russian sentences yourself.
-
-Available exercises include:
-
-- Sentence completion
-- Declension exercises
-- Sentence correction
-- Reverse translation
-- Audio dictation
-
-The app can provide hints and corrections to help identify mistakes.
-
-### 📖 Reading
-
-Read Russian texts and practice understanding vocabulary, sentence structure, and grammar in context.
-
-Reading exercises are designed to help learners become more comfortable with written Russian and gradually improve their comprehension.
-
-### 🎧 Listening
-
-Improve your Russian listening skills through audio-based exercises.
-
-Listening features include:
-
-- Audio dictation
-- Listening to Russian words and sentences
-- Understanding spoken Russian
-- Practicing pronunciation
-- Listening to generated texts and AI responses
-
-> **⚠️ Voice generation disclaimer**
->
-> RusseGram uses **Microsoft Edge TTS** to generate voices. Depending on the length of the text, the network connection, and the external service, voice generation may take a little while.
->
-> A delay before audio becomes available is therefore normal. Edge TTS is an external service, so its availability and performance may vary.
-
-### 🤖 RussianAI
-
-RussianAI is an integrated assistant focused on Russian grammar and language learning.
-
-You can use it to:
-
-- Ask grammar questions
-- Request explanations
-- Translate words and sentences
-- Generate examples
-- Create practice exercises
-- Ask for corrections
-- Get help understanding Russian expressions
-
-The assistant can also be used to support other learning activities inside the app.
-
-### 🗣️ RussianAI Conversation
-
-Practice conversational Russian with an AI-powered voice interface.
-
-The conversation mode allows you to:
-
-- Speak in Russian
-- Receive AI-generated replies
-- Continue a conversation automatically
-- Practice everyday communication
-- Listen to generated responses
-
-A dedicated voice interface provides microphone controls and conversation settings.
-
-### 📈 Progress Tracking
-
-Track your learning progress through:
-
-- XP and levels
-- Learning streaks
-- Quiz results
-- Writing results
-- Success rate
-- Error statistics
-- Recent mistakes
-- Daily learning information
-
-The progress screen also includes a **Word of the Day** to help build vocabulary over time.
-
-### 📱 Android Widget
-
-RusseGram also includes an Android widget for quick access to learning-related information and app features directly from the home screen.
+- **📚 Grammaire & Leçons** — cas russes, déclinaisons, genre/nombre, pronoms, adjectifs, conjugaison, prépositions, pièges courants, exemples en russe avec explications en français.
+- **🃏 Flashcards** — cartes à retourner, marquage "su / à revoir", génération de nouveaux decks.
+- **🧠 Quiz de grammaire** — QCM axés sur l'usage pratique des cas et des formes.
+- **✍️ Exercices d'écriture** — complétion de phrases, déclinaisons, correction, traduction inversée, dictée audio, avec indices et corrections.
+- **📖 Lecture** — textes russes pour travailler vocabulaire, syntaxe et grammaire en contexte.
+- **🎧 Écoute** — dictée audio, écoute de mots/phrases, compréhension orale, prononciation, textes générés par l'IA.
+  > ⚠️ La génération vocale utilise **Microsoft Edge TTS** (service externe) : un léger délai est normal selon la longueur du texte et le réseau.
+- **🤖 RussianAI** — assistant dédié à la grammaire russe : questions, explications, traductions, exemples, exercices, corrections.
+- **🗣️ RussianAI Conversation** — pratique orale en russe avec réponses IA et suite automatique de la discussion, via une interface vocale dédiée.
+- **📈 Suivi de progression** — XP, niveaux, séries, résultats de quiz/écriture, taux de réussite, statistiques d'erreurs, **Mot du jour**.
+- **📱 Widget Android** — accès rapide depuis l'écran d'accueil.
 
 ---
 
 ## 🎨 Interface
 
-RusseGram uses a modern mobile interface with:
-
-- A bottom navigation bar
-- Rounded cards and buttons
-- Animated transitions
-- Gradient accents
-- Interactive learning screens
-- A dedicated RussianAI interface
-- A layout designed for Android smartphones
+Navigation par onglets en bas, cartes arrondies, transitions animées, accents en dégradé, interface RussianAI dédiée — pensée pour smartphone Android.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack technique
 
-RusseGram is built around an Android application with a web-based interface.
-
-Main technologies include:
-
-| Technology | Role |
+| Techno | Rôle |
 |---|---|
-| Kotlin | Core Android application logic |
-| Android Studio | Development environment |
-| Android WebView | Hosting the web-based interface |
-| HTML | Interface structure |
-| CSS | Interface styling |
-| JavaScript | Interface interactivity |
-| LocalStorage | Local data persistence |
-| Android AppWidget | Home screen widget |
-| Microsoft Edge TTS | Voice generation |
-| AI services | RussianAI assistant & conversation mode |
+| Kotlin | Logique de l'application Android |
+| Android Studio | Environnement de développement |
+| Android WebView | Interface web embarquée |
+| HTML / CSS / JS | Structure, style, interactivité |
+| LocalStorage | Persistance locale |
+| Android AppWidget | Widget écran d'accueil |
+| Microsoft Edge TTS | Génération vocale |
+| Services IA | Assistant RussianAI & conversation |
 
 ---
 
-## 🌐 Internet Connection
+## 🌐 Connexion Internet
 
-Some features require an Internet connection, including:
-
-- RussianAI
-- AI-generated exercises
-- Voice generation
-- Audio dictation
-- AI conversations
-- External translation or language services
-
-Some learning features can work locally, depending on the available content and implementation.
+Nécessitent Internet : RussianAI, exercices générés par IA, génération vocale, dictée audio, conversations IA, traduction externe.
+Certaines fonctionnalités peuvent fonctionner localement selon le contenu disponible.
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Avertissement
 
-RusseGram is an educational project and is not intended to replace a teacher, a structured language course, or professional linguistic resources.
-
-AI-generated content may occasionally contain mistakes or inaccurate explanations. Always verify important information with reliable sources.
-
-Voice generation may also take some time because it relies on Edge TTS and external services.
+RusseGram est un projet éducatif, il ne remplace pas un professeur ni un cours structuré. Le contenu généré par IA peut contenir des erreurs : vérifiez les informations importantes. La génération vocale (Edge TTS) peut prendre du temps.
 
 ---
 
-## 📸 Screenshots
+## 📸 Captures d'écran
 
-| Grammar | Flashcards | Quiz |
+| Grammaire | Flashcards | Quiz |
 |---|---|---|
-| _screenshot_ | _screenshot_ | _screenshot_ |
+| ![Grammaire](screenshots/grammaire.jpg) | ![Flashcards](screenshots/flashcards.jpg) | ![Quiz](screenshots/quiz.jpg) |
 
-| Writing | Progress |
+| Écriture | Progrès |
 |---|---|
-| _screenshot_ | _screenshot_ |
+| ![Écriture](screenshots/ecriture.jpg) | ![Progrès](screenshots/progres.jpg) |
+
+| Lecture | Écoute |
+|---|---|
+| ![Lecture](screenshots/lecture.jpg) | ![Écoute](screenshots/ecoute.jpg) |
 
 | RussianAI Conversation | RussianAI Assistant |
 |---|---|
-| _screenshot_ | _screenshot_ |
-
-> Replace the placeholders above with actual screenshots (e.g. `![Grammar](screenshots/grammar.png)`).
+| ![Conversation](screenshots/conversation.jpg) | ![Assistant](screenshots/assistant.jpg) |
 
 ---
 
 ## 🚀 Installation
 
-Download the latest APK from the **Releases** section, or build the project using Android Studio.
-
 ```bash
-git clone https://github.com/PUFFER_IV/RusseGram.git
+git clone https://github.com/pufferIV/RusseGram.git
 ```
 
-Then:
-
-1. Open the project in **Android Studio**
-2. Synchronize Gradle
-3. Build and run the application on an emulator or device
+Ouvre le projet dans **Android Studio**, synchronise Gradle, puis build/run.
+Ou télécharge la dernière APK depuis la section **Releases**.
 
 ---
 
 ## 🗺️ Roadmap
 
-- [ ] More grammar lessons
-- [ ] Additional vocabulary decks
-- [ ] More reading and listening exercises
-- [ ] Improved AI corrections
-- [ ] More conversation features
-- [ ] Better offline support
-- [ ] Additional voice options
-- [ ] More detailed statistics
-- [ ] Interface improvements
+- [ ] Plus de leçons de grammaire
+- [ ] Decks de vocabulaire supplémentaires
+- [ ] Plus d'exercices de lecture/écoute
+- [ ] Corrections IA améliorées
+- [ ] Plus de fonctionnalités de conversation
+- [ ] Meilleur support hors-ligne
+- [ ] Voix supplémentaires
+- [ ] Statistiques plus détaillées
+- [ ] Améliorations de l'interface
 
 ---
 
-## 🌍 English Version
+## 🌍 Version anglaise
 
-The current application is primarily designed in French.
-
-An English version is planned and may be developed with community contributions, especially for translation and language adaptation.
-
-If you would like to help translate RusseGram into English, contributions are welcome.
+L'application est actuellement en français. Une version anglaise est envisagée, notamment via des contributions communautaires pour la traduction.
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contribuer
 
-Contributions, suggestions, translations, and bug reports are welcome.
-
-You can help by:
-
-- Reporting bugs
-- Suggesting new features
-- Improving translations
-- Adding learning content
-- Testing the application
-- Improving the interface
-- Contributing code
+Bugs, suggestions, traductions, contenu, tests, interface, code : toute contribution est la bienvenue.
 
 ---
 
-## 📄 License
+## 📄 Licence
 
-This project is currently a personal development project.
-
-The license will be specified in a future release.
+Projet personnel en développement — la licence sera précisée dans une future version.
 
 ---
 
 <p align="center">
-Made with ❤️ for Russian learners.<br>
-<strong>RusseGram — Learn Russian, one step at a time</strong>
+Fait avec ❤️ pour les apprenants du russe.<br>
+<strong>RusseGram — Apprendre le russe, un pas à la fois</strong>
 </p>
