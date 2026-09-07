@@ -137,3 +137,79 @@ Main sections:
 
 ```text
 Grammar · Cards · Quiz · Writing · Progress# RussGram
+
+-------
+
+RusseGram is built around an Android application with a web-based interface.
+Main technologies include:
+Kotlin
+Android Studio
+Android WebView
+HTML
+CSS
+JavaScript
+LocalStorage
+Android AppWidget
+Microsoft Edge TTS
+AI services
+🌐 Internet connection
+Some features require an Internet connection, including:
+RussianAI
+AI-generated exercises
+Voice generation
+Audio dictation
+AI conversations
+External translation or language services
+Some learning features can work locally, depending on the available content and implementation.
+⚠️ Disclaimer
+RusseGram is an educational project and is not intended to replace a teacher, a structured language course, or professional linguistic resources.
+AI-generated content may occasionally contain mistakes or inaccurate explanations. Always verify important information with reliable sources.
+Voice generation may also take some time because it relies on Edge TTS and external services.
+📸 Screenshots
+Grammar
+�
+Flashcards
+�
+Quiz
+�
+Writing
+�
+Progress
+�
+RussianAI Conversation
+�
+RussianAI Assistant
+�
+🚀 Installation
+Download the latest APK from the Releases section, or build the project using Android Studio.
+git clone https://github.com/USERNAME/RusseGram.git
+Open the project in Android Studio, synchronize Gradle, and build the application.
+🗺️ Roadmap
+More grammar lessons
+Additional vocabulary decks
+More reading and listening exercises
+Improved AI corrections
+More conversation features
+Better offline support
+Additional voice options
+More detailed statistics
+Interface improvements
+🌍 English version
+The current application is primarily designed in French.
+An English version is planned and may be developed with community contributions, especially for translation and language adaptation.
+If you would like to help translate RusseGram into English, contributions are welcome.
+🤝 Contributing
+Contributions, suggestions, translations, and bug reports are welcome.
+You can help by:
+Reporting bugs
+Suggesting new features
+Improving translations
+Adding learning content
+Testing the application
+Improving the interface
+Contributing code
+📄 License
+This project is currently a personal development project.
+The license will be specified in a future release.
+Made with ❤️ for Russian learners.
+RusseGram — Learn Russian, one step at a time
