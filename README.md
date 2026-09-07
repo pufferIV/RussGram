@@ -138,8 +138,6 @@ Main sections:
 ```text
 Grammar · Cards · Quiz · Writing · Progress
 
-----
-
 ## 🛠️ Technology
 
 RusseGram is built around an Android application with a web-based interface.
