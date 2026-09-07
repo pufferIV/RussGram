@@ -4,6 +4,24 @@
 
 RusseGram is a personal learning project designed to make Russian easier to study through interactive exercises and a clean, mobile-friendly interface.
 
+---
+
+## 📑 Table of Contents
+
+- [Features](#-features)
+- [Interface](#-interface)
+- [Tech Stack](#-tech-stack)
+- [Internet Connection](#-internet-connection)
+- [Disclaimer](#️-disclaimer)
+- [Screenshots](#-screenshots)
+- [Installation](#-installation)
+- [Roadmap](#️-roadmap)
+- [English Version](#-english-version)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
 ## ✨ Features
 
 ### 📚 Grammar & Lessons
@@ -121,6 +139,8 @@ The progress screen also includes a **Word of the Day** to help build vocabulary
 
 RusseGram also includes an Android widget for quick access to learning-related information and app features directly from the home screen.
 
+---
+
 ## 🎨 Interface
 
 RusseGram uses a modern mobile interface with:
@@ -133,29 +153,30 @@ RusseGram uses a modern mobile interface with:
 - A dedicated RussianAI interface
 - A layout designed for Android smartphones
 
-Main sections:
+---
 
-```text
-Grammar · Cards · Quiz · Writing · Progress
-
-## 🛠️ Technology
+## 🛠️ Tech Stack
 
 RusseGram is built around an Android application with a web-based interface.
 
 Main technologies include:
 
-- Kotlin
-- Android Studio
-- Android WebView
-- HTML
-- CSS
-- JavaScript
-- LocalStorage
-- Android AppWidget
-- Microsoft Edge TTS
-- AI services
+| Technology | Role |
+|---|---|
+| Kotlin | Core Android application logic |
+| Android Studio | Development environment |
+| Android WebView | Hosting the web-based interface |
+| HTML | Interface structure |
+| CSS | Interface styling |
+| JavaScript | Interface interactivity |
+| LocalStorage | Local data persistence |
+| Android AppWidget | Home screen widget |
+| Microsoft Edge TTS | Voice generation |
+| AI services | RussianAI assistant & conversation mode |
 
-## 🌐 Internet connection
+---
+
+## 🌐 Internet Connection
 
 Some features require an Internet connection, including:
 
@@ -168,6 +189,8 @@ Some features require an Internet connection, including:
 
 Some learning features can work locally, depending on the available content and implementation.
 
+---
+
 ## ⚠️ Disclaimer
 
 RusseGram is an educational project and is not intended to replace a teacher, a structured language course, or professional linguistic resources.
@@ -176,44 +199,91 @@ AI-generated content may occasionally contain mistakes or inaccurate explanation
 
 Voice generation may also take some time because it relies on Edge TTS and external services.
 
-> **Voice generation disclaimer:**  
-> RusseGram uses **Microsoft Edge TTS** to generate voices. Depending on the length of the text, the network connection, and the external service, voice generation may take a little while.
->
-> A delay before audio becomes available is therefore normal. Edge TTS is an external service, so its availability and performance may vary.
+---
 
 ## 📸 Screenshots
 
-### Grammar
+| Grammar | Flashcards | Quiz |
+|---|---|---|
+| _screenshot_ | _screenshot_ | _screenshot_ |
 
-![Grammar lessons](screenshots/grammar.png)
+| Writing | Progress |
+|---|---|
+| _screenshot_ | _screenshot_ |
 
-### Flashcards
+| RussianAI Conversation | RussianAI Assistant |
+|---|---|
+| _screenshot_ | _screenshot_ |
 
-![Flashcards](screenshots/cards.png)
+> Replace the placeholders above with actual screenshots (e.g. `![Grammar](screenshots/grammar.png)`).
 
-### Quiz
-
-![Grammar quiz](screenshots/quiz.png)
-
-### Writing
-
-![Writing exercises](screenshots/writing.png)
-
-### Progress
-
-![Progress tracking](screenshots/progress.png)
-
-### RussianAI Conversation
-
-![RussianAI Conversation](screenshots/russian-ai-conversation.png)
-
-### RussianAI Assistant
-
-![RussianAI Assistant](screenshots/russian-ai-assistant.png)
+---
 
 ## 🚀 Installation
 
 Download the latest APK from the **Releases** section, or build the project using Android Studio.
 
 ```bash
-git clone https://github.com/USERNAME/RusseGram.git
+git clone https://github.com/PUFFER_IV/RusseGram.git
+```
+
+Then:
+
+1. Open the project in **Android Studio**
+2. Synchronize Gradle
+3. Build and run the application on an emulator or device
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] More grammar lessons
+- [ ] Additional vocabulary decks
+- [ ] More reading and listening exercises
+- [ ] Improved AI corrections
+- [ ] More conversation features
+- [ ] Better offline support
+- [ ] Additional voice options
+- [ ] More detailed statistics
+- [ ] Interface improvements
+
+---
+
+## 🌍 English Version
+
+The current application is primarily designed in French.
+
+An English version is planned and may be developed with community contributions, especially for translation and language adaptation.
+
+If you would like to help translate RusseGram into English, contributions are welcome.
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, translations, and bug reports are welcome.
+
+You can help by:
+
+- Reporting bugs
+- Suggesting new features
+- Improving translations
+- Adding learning content
+- Testing the application
+- Improving the interface
+- Contributing code
+
+---
+
+## 📄 License
+
+This project is currently a personal development project.
+
+The license will be specified in a future release.
+
+---
+
+<p align="center">
+Made with ❤️ for Russian learners.<br>
+<strong>RusseGram — Learn Russian, one step at a time</strong>
+</p>
