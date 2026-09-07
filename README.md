@@ -137,3 +137,85 @@ Main sections:
 
 ```text
 Grammar · Cards · Quiz · Writing · Progress
+
+----
+
+## 🛠️ Technology
+
+RusseGram is built around an Android application with a web-based interface.
+
+Main technologies include:
+
+- Kotlin
+- Android Studio
+- Android WebView
+- HTML
+- CSS
+- JavaScript
+- LocalStorage
+- Android AppWidget
+- Microsoft Edge TTS
+- AI services
+
+## 🌐 Internet connection
+
+Some features require an Internet connection, including:
+
+- RussianAI
+- AI-generated exercises
+- Voice generation
+- Audio dictation
+- AI conversations
+- External translation or language services
+
+Some learning features can work locally, depending on the available content and implementation.
+
+## ⚠️ Disclaimer
+
+RusseGram is an educational project and is not intended to replace a teacher, a structured language course, or professional linguistic resources.
+
+AI-generated content may occasionally contain mistakes or inaccurate explanations. Always verify important information with reliable sources.
+
+Voice generation may also take some time because it relies on Edge TTS and external services.
+
+> **Voice generation disclaimer:**  
+> RusseGram uses **Microsoft Edge TTS** to generate voices. Depending on the length of the text, the network connection, and the external service, voice generation may take a little while.
+>
+> A delay before audio becomes available is therefore normal. Edge TTS is an external service, so its availability and performance may vary.
+
+## 📸 Screenshots
+
+### Grammar
+
+![Grammar lessons](screenshots/grammar.png)
+
+### Flashcards
+
+![Flashcards](screenshots/cards.png)
+
+### Quiz
+
+![Grammar quiz](screenshots/quiz.png)
+
+### Writing
+
+![Writing exercises](screenshots/writing.png)
+
+### Progress
+
+![Progress tracking](screenshots/progress.png)
+
+### RussianAI Conversation
+
+![RussianAI Conversation](screenshots/russian-ai-conversation.png)
+
+### RussianAI Assistant
+
+![RussianAI Assistant](screenshots/russian-ai-assistant.png)
+
+## 🚀 Installation
+
+Download the latest APK from the **Releases** section, or build the project using Android Studio.
+
+```bash
+git clone https://github.com/USERNAME/RusseGram.git
