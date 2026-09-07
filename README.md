@@ -1,8 +1,8 @@
-# 🇷🇺 RusseGram
+# 🇷🇺 RussGram
 
 > A modern Android app for learning Russian through grammar, vocabulary, reading, listening, writing, and AI-powered practice.
 
-RusseGram is a personal learning project designed to make Russian easier to study through interactive exercises and a clean, mobile-friendly interface.
+RussGram is a personal learning project designed to make Russian easier to study through interactive exercises and a clean, mobile-friendly interface.
 
 ---
 
@@ -68,7 +68,7 @@ Some features can work locally, depending on the available content.
 
 ## ⚠️ Disclaimer
 
-RusseGram is an educational project and is not intended to replace a teacher or a structured language course. AI-generated content may occasionally contain mistakes — always verify important information. Voice generation (Edge TTS) may take some time.
+RussGram is an educational project and is not intended to replace a teacher or a structured language course. AI-generated content may occasionally contain mistakes — always verify important information. Voice generation (Edge TTS) may take some time.
 
 ---
 
@@ -95,7 +95,7 @@ RusseGram is an educational project and is not intended to replace a teacher or 
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/pufferIV/RusseGram.git
+git clone https://github.com/pufferIV/RussGram.git
 ```
 
 Open the project in **Android Studio**, sync Gradle, then build/run.
@@ -137,5 +137,5 @@ Personal project currently in development — the license will be specified in a
 
 <p align="center">
 Made with ❤️ for Russian learners.<br>
-<strong>RusseGram — Learn Russian, one step at a time</strong>
+<strong>RussGram — Learn Russian, one step at a time</strong>
 </p>
